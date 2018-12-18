@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Codegeek - Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="icon.png" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.col-lg-right{
+    width : 75%;
+    height : 100%;
+    margin-left : 25%;
+    margin-bottom : 1%;
+}
+.col-sm-left{    
+    width : 20%;
+    position : fixed;
+    font-size: vw;
+    padding : 5px;  
+    display : block;  
+}
+.mini-item{
+    display : block;
+    padding : 5px;    
+}
+.menu-but{
+    display : block;
+    text-decoration : none;
+    padding : 10px;
+    background : #2196f3;
+    color : white;
+}
+.item-panel-child{
+    width : auto;
+    height : 100%;
+}
+.heading-blue{
+     background : #2196f3;
+     color: white;
+}
+.icon{
+    height : 15vw;
+    width : 15vw;
+}
+.link-navi{
+    text-decoration : none;
+    color : white;
+}
+@media only screen and (max-width: 320px) {
+    body{
+        font-size: 5vw;
+        margin : 0px;
+    }  
+    .col-sm-left{ 
+    display : none;
+    }   
+    .col-lg-right{
+        width : 100%;
+        margin : 0px;
+    } 
+}
+@media only screen and (max-width: 1024px) {
+    body{
+        font-size: 5vw;
+        margin : 0px;
+    }  
+    .col-sm-left{ 
+    display : none;
+    }   
+    .col-lg-right{
+        width : 100%;
+        margin : 0px;
+    } 
+}
+</style>
+</head>
+<body>
+<!-------------------------------------->
+    <div class="navbar">
+        <div class="toggle">
+            <div class="menu"><b>My Projects</b><i class="fa fa-bars" aria-hidden="true"></i></div>
+        </div>
+        <ul class="nav">
+            <li class="nav-items"><a link href="index.html" class="nav-but">HOME</a></li>
+            <li class="nav-items"><a link href="project.html" class="nav-but">PROJECT's</a></li>
+            <li class="nav-items"><a link href="youtube.html" class="nav-but">YOUTUBE CHANNEL</a></li>
+            <li class="nav-items"><a link href="cert.html" class="nav-but">CERTIFICATES</a></li>
+            <li class="nav-items"><a link href="portfolio.html" class="nav-but">PORTFOLIO</a></li>
+        </ul>
+    </div>
+<!-------------------------------------->
+<div class="row">
+    
+    <div class="col-sm-left">
+        <li class="mini-item"><a link href="#CMC" class="menu-but">Car Manufacturing Company</a> </li>
+        <li class="mini-item"><a link href="#BPC" class="menu-but">Book Publication Website</a></li>
+        <li class="mini-item"><a link href="#OSW" class="menu-but">Online Shopping Website</a></li>
+        <li class="mini-item"><a link href="#OTP" class="menu-but">Holiday Tour Planner</a></li>    
+    </div>
+    <div class="col-lg-right">
+        <div class="item-panel-child" id="CMC">
+            <h1 class="heading-blue"><a link href="https://github.com/Pratik667/mycarsite.github.io/" class="link-navi">Car Manufacturing Company</a></h1>
+            <h3>First year Sem-2 Mini Project</h3>
+            <p>&nbsp&nbsp&nbsp&nbsp This Project is a dual effort of Pratik Mandlik & Kaustub Bhise. We created this project using Bootstrap Framework. This project is a replica of Vehicles Display website which shows the detail of the car and overview of the car. We have replicate our ideas from www.jaguarmotors.com. This project does not violates any copyrights of any website or commercialize company. This project is just for Educational purpose and use.</p>
+            <h4>Salient Features</h4>
+            <li>Use of detailed Graphics</li>
+            <li>Use of Dynamic webdesigning</li>
+            <li>Free from laging</li>
+            <li>Consumes less space</li>            
+        </div>
+        <div class="item-panel-child" id="BPC">
+            <h1 class="heading-blue"><a link href="http://bookpublication.somee.com" class="link-navi">Book Publication Website</a></h1>
+            <h3>Graduation TY BSC CS Project</h3>
+            <p>&nbsp&nbsp&nbsp&nbsp This Project is basically about a book publication website, just like wiley's or Pearson publication. This Website contains viewing of books, publishing of book if you are an author and not having enough fund to publish a book and for buyers they can buy the book by viewing the book and then selecting the book. All the transaction processes are stored in the backend database. My motive was to built this project using domain knowledge in web application building in ASP.NET and backend in MSSQL.</p>
+            <center><img src="res\asp.jpg" alt="asp.net icon" class="icon"/></center>
+        </div>
+        <div class="item-panel-child" id="OSW">
+            <h1 class="heading-blue"><a link href="" class="link-navi">Online Shopping Website</a></h1>
+            <p>&nbsp&nbsp&nbsp&nbsp This Project gives an overview of an ideal shopping website which are currently making buzz in the market. I have designed this project using Bootstrap 4 Framework, amongst the top recommended framework in IT industry.</p>
+            <h4>Salient Features</h4>
+            <li>Lightweight</li>
+            <li>Use of Dynamic webdesigning</li>
+            <li>Use of detailed Graphics</li>             
+        </div>
+        <div class="item-panel-child" id="OTP">
+            <h1 class="heading-blue"><a link href="" class="link-navi">Holiday Tour Planner</a></h1>
+            <p>&nbsp&nbsp&nbsp&nbsp This Project gives an overview of a holiday tour planner website. Entities include are selecting a exciting plan, ordering a plan and then paying for the plan online. I have not added in-depth features like creating your plan by selecting randomly a source and a destination or else. My motive behind this site is to showcase just another type of website just for educational purpose and not for any bussiness purpose.</p>
+            <h4>This page is created using Codeigniter & Semantic UI Framework</h4>
+            <p><b>Codeigniter</b>: CodeIgniter is an open-source software rapid development web framework, for use in building dynamic web sites with PHP.</p>
+            <p><b>Semantic UI</b>: Semantic is a development framework that helps create beautiful, responsive layouts using human-friendly HTML.
+            <center><img src="res\codeigniter.png" alt="codeigniter icon" class="icon"/>
+            <img src="res\logo.png" alt="semantic ui icon" class="icon"/>
+            </center>
+</p>
+        </div>
+    </div>
+</div>
+<!----------------Footer---------------------->
+<div class="footer">
+   Project Magenta Line - Copyrights @ CodeGeek
+</div>
+<!----------------JQUERY---------------------->
+<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.menu').click(function(){
+            $('.nav').toggleClass('active');
+        })
+    })
+</script>
+
+</body>
+</html>
