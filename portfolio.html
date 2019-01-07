@@ -13,7 +13,7 @@
 <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
 <style>
 body{
-        background-image : url("project/wallpapaer.jpg");
+        background-image : url("project/mobileback.jpg");
         background-repeat: no-repeat;
         background-size: cover; 
         background-attachment: fixed;       
@@ -32,6 +32,7 @@ body{
     }
     @media only screen and (max-width: 1024px) {
         body{
+	    background-image : url("project/wallpapaer.jpg");
             height : auto;
             width : auto;
             margin : 0px;
@@ -78,9 +79,7 @@ body{
         </div>
         <ul class="nav">
             <li class="nav-items"><a link href="index.html" class="nav-but">HOME</a></li>
-            <li class="nav-items"><a link href="project.html" class="nav-but">PROJECT's</a></li>
-            <li class="nav-items"><a link href="youtube.html" class="nav-but">YOUTUBE CHANNEL</a></li>
-            <li class="nav-items"><a link href="cert.html" class="nav-but">CERTIFICATES</a></li>
+            <li class="nav-items"><a link href="project.html" class="nav-but">PROJECT's</a></li>           
             <li class="nav-items"><a link href="portfolio.html" class="nav-but">PORTFOLIO</a></li>
         </ul>
     </div>
@@ -219,6 +218,35 @@ body{
             $('.nav').toggleClass('active');
         })
     })
+
 </script>
+  <!-- Start of Async Drift Code -->
+<script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('u79xzhhuf4sf');
+</script>
+<!-- End of Async Drift Code --> 
 </body>
 </html>
